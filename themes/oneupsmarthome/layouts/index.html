@@ -2,59 +2,173 @@
 {{ define "header"}} {{ partial "header" .}} {{end}}
 {{ define "main"}}
 
-<div id="main">
-  <div id="hero">
-    <h1>{{.Title}}</h1>
-    <p>{{.Description}}</p>
-  </div>
-  <div id="action-buttons">
-    <a class="button primary big" href="https://github.com/jeblister/kube/releases/tag/v1.0.1" onclick="_gaq.push(['_trackEvent', 'kube', 'download', '1.0']);">Download</a> <a class="button outline big" href="https://github.com/jeblister/kube" onclick="_gaq.push(['_trackEvent', 'kube', 'github', '1.0.0']);">View on Github</a>
-    <p>Version 1.0.0 from Abril 13, 2017.<br>
-    Zip-archive, includes all the source and site example files</p>
-  </div>
-  <div class="message focus" data-component="message"> <span class="close small"></span>
-    <a class="button inverted small " href="https://imperavi.com/kube/" >Kube </a> from <a href="https://imperavi.com/">imperavi</a> is an awesome <mark>CSS & JS Framework</mark> and i designed this template for <a href="https://gohugo.io">hugo</a> with the same original philosophy !
-  </div>
-  <div id="kube-features">
-    <div class="row gutters">
-      <div class="col col-4 item">
-        <figure>
-          <img alt="Baseline" height="48" src="/img/kube/icon-baseline.png" width="48">
-        </figure>
-        <h3>Horizontal Rhythm</h3>
-        <p>In Kube horizontal rhythm based on a 4px vertical grid is something that we are truly proud of.</p>
+<div class="main-container">
+  <a id="header" class="in-page-link"></a>
+  <section class="cover imagebg height-60" data-overlay="7">
+      <div class="background-image-holder"> <img alt="background" src="img/smart-home-header.jpg"> </div>
+      <div class="container pos-vertical-center">
+          <div class="row">
+              <div class="col-sm-8 col-md-7">
+                  <h1> Control your house from anywhere! </h1>
+                  <p class="lead"> Control lights, appliances or a room in the comfort of your home or from anywhere in the world. </p>
+                  <a class="btn btn--primary type--uppercase" href="#consultation"> <span class="btn__text">
+  get A FREE CONSULTATION
+</span> </a>
+              </div>
+          </div>
       </div>
-      <div class="col col-4 item">
-        <figure>
-          <img alt="Typography" height="48" src="/img/kube/icon-typo.png" width="48">
-        </figure>
-        <h3>Typography</h3>
-        <p>We obsess over typography, and it shows throughout Kube.</p>
+  </section>
+  <a id="services-header" class="in-page-link"></a>
+  <section class="text-center space--xs bg--secondary">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-10 col-md-8">
+                  <h2>Our Smart Home Services.</h2>
+                  <p class="lead"> OneUp provides in-home solutions to create an amazing smart home experience. We offer a full selection of smart home automation services, including the following: </p>
+              </div>
+          </div>
       </div>
-      <div class="col col-4 item">
-        <figure>
-          <img alt="Minimalism" height="48" src="/img/kube/icon-minimalism.png" width="48">
-        </figure>
-        <h3>Minimalism</h3>
-        <p>We strongly believe in minimalism as a general concept as well as a practical approach to everyday life.</p>
+  </section>
+  <a id="services-list" class="in-page-link"></a>
+  <section class="text-center space--xxs bg--secondary">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-4">
+                  <div class="feature feature-3 boxed boxed--lg boxed--border"> <i class="icon icon-Light-Bulb icon--lg"></i>
+                      <h4>Smart Lighting</h4>
+                      <p> Remotely dim and brighten lights, set timers, and turn power on and off without ever leaving your seat. </p>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="feature feature-3 boxed boxed--lg boxed--border"> <i class="icon icon-Webcam icon--lg"></i>
+                      <h4>Indoor Security Camera</h4>
+                      <p> Look after home, even when you're out. Receive notifications when the camera sees any activity. </p> <a href="#consultation">More Services &gt;</a> </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="feature feature-3 boxed boxed--lg boxed--border"> <i class="icon icon-Plug-In icon--lg"></i>
+                      <h4>Smart Plugs</h4>
+                      <p> Easily manage your home electronics and appliances from anywhere in the world with your smart WiFi plug.</p>
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
-    <div class="row gutters">
-      <div class="col col-4 item">
-        <h4>Mobile-first Design</h4>
-        <p>Every element in kube is mobile-first and fully embraces latest and greatest tech.</p>
+  </section>
+  <a id="family-safety" class="in-page-link"></a>
+  <section class="cover text-center space--sm bg--secondary">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                  <h1>Keep your family safe</h1>
+                  <p class="lead"> Monitor your home from your smartphone, tablet or PC.&nbsp; With our smart WiFi Video Doorbell installation, you can see, hear and speak to visitors from anywhere.&nbsp;Protect your home – day or night – with infrared night vision now!.</p>
+              </div>
+              <div class="col-sm-12">
+                  <div class="triptych border--round"> <img alt="Image" src="img/insurance-1.jpg"> <img alt="Image" src="img/ring-video-doorbell-2-phone.jpg"> <img alt="Image" src="img/family.jpg"> </div>
+              </div>
+          </div>
       </div>
-      <div class="col col-4 item">
-        <h4>Cross-browser</h4>
-        <p>Kube works in all modern browsers, both desktop and mobile, including latest Chrome, Firefox, Safari, Opera, IE and Edge.</p>
+  </section>
+  <a id="accessible" class="in-page-link"></a>
+  <section class="switchable space--xs switchable--switch bg--primary">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5 col-sm-7">
+                  <div class="mt--2">
+                      <h1> Make your home more accessible</h1>
+                      <p class="lead"> “Smart homes offer tools for people with disabilities to live more independently, allowing them to take control—turn on and off lights, find out who knocks on the door. They have the ability to be transformative.” -&nbsp;Mark Perriello</p>
+                  </div>
+              </div>
+              <div class="col-md-7 col-sm-5 col-xs-12"> <img alt="Image" src="img/insurance-3.jpg"> </div>
+          </div>
       </div>
-      <div class="col col-4 item">
-        <h4>License</h4>
-        <p>Kube licensed under <a href="http://opensource.org/licenses/MIT">MIT</a>.<br>
-      Kube Framework is absolutely free for personal or commercial use.</p>
-    </div>
-  </div>
-</div>
-</div>
+  </section>
+  <a id="consultation" class="in-page-link"></a>
+  <section class="switchable bg--secondary space--xs">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5 col-sm-7">
+                  <div class="mt--2">
+                      <h1> Free In-Home Consultation. </h1>
+                      <p class="lead"> Get started with a free In-Home consultation. Our smart home experts have the expertise to handle a wide range of home control products. </p>
+                      <a class="btn btn--primary type--uppercase" href="#customise-template"> <span class="btn__text">
+    get a free consultation</span> </a>
+                  </div>
+              </div>
+              <div class="col-md-7 col-sm-5 col-xs-12"> <img alt="Image" src="img/smart-home-consultation.jpg"> </div>
+          </div>
+      </div>
+  </section>
+  <a id="more-features" class="in-page-link"></a>
+  <section class="switchable feature-large bg--dark">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5 col-sm-6 switchable__text">
+                  <h2>Make your life easier and more enjoyable!&nbsp;</h2>
+                  <p class="lead">With smart home technology, you will be able to manage your household more efficiently and handle common tasks quicker than before. Here are some of our favorite ways to utilize the smart home service to make your life easier, healthier and a bit more fun.&nbsp;</p>
+                  <a class="btn btn--primary type--uppercase" href="#consultation"> <span class="btn__text"> 
+              See our services</span> </a>
+              </div>
+              <div class="col-md-4 col-sm-6 col-md-pull-1 col-xs-12">
+                  <div class="boxed boxed--lg boxed--border box-shadow-wide">
+                      <div class="slider" data-paging="true">
+                          <ul class="slides">
+                              <li class="col-xs-12">
+                                  <div class="feature feature-3 text-center"> <i class="icon color--primary icon-Music-Note2 icon--lg"></i>
+                                      <h4>Listen to Music</h4>
+                                      <p> Control music with your voice. You can use phrases like these when listening to music: "What's playing?," "Next song," "Repeat this song" and more.&nbsp;</p>
+                                  </div>
+                              </li>
+                              <li class="col-xs-12">
+                                  <div class="feature feature-3 text-center"> <i class="icon color--primary icon-Newspaper-2 icon--lg"></i>
+                                      <h4>Listen to Flash Briefing</h4>
+                                      <p>Catch up on the news in the morning, listen to news and and weather updades from popular broadcasters.&nbsp;</p>
+                                  </div>
+                              </li>
+                              <li class="col-xs-12">
+                                  <div class="feature feature-3 text-center"> <i class="icon color--primary icon-TV icon--lg"></i>
+                                      <h4>Control Your TV</h4>
+                                      <p>Play video content, search for movies and TV shows and control playback with phrases like "Play," "Pause," "Next Episode," "Watch from beginning"</p>
+                                  </div>
+                              </li>
+                              <li class="col-xs-12">
+                                  <div class="feature feature-3 text-center"> <i class="icon color--primary icon-Basket-Ball icon--lg"></i>
+                                      <h4>Listen to Sports Update</h4>
+                                      <p>Hear sport updates for up to 15 teams from supported leagues. Get the latest scores and upcoming games for your favorite sports teams.</p>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <a id="testimonials" class="in-page-link"></a>
+  <section class="text-center space--xxs">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 col-sm-10">
+                  <div class="slider" data-paging="true">
+                      <ul class="slides">
+                          <li>
+                              <div class="testimonial">
+                                  <blockquote> “There's a feeling of structure that you can't find in other templates — Stack has become my default template.” </blockquote>
+                                  <h5>Jason Briggs</h5> <span>Envato Customer</span> </div>
+                          </li>
+                          <li>
+                              <div class="testimonial">
+                                  <blockquote> “Variant has been a massive plus for my workflow — I can now get live mockups out in a matter of hours, my clients really love it.” </blockquote>
+                                  <h5>Rob Vasquez</h5> <span>Interface Designer — Yoke</span> </div>
+                          </li>
+                          <li>
+                              <div class="testimonial">
+                                  <blockquote> “We’ve been using Stack to prototype designs quickly and efficiently. Needless to say we’re hugely impressed by the style and value.” </blockquote>
+                                  <h5>Maguerite Holland</h5> <span>Interface Designer — Yoke</span> </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}
