@@ -1,3 +1,3 @@
 # One Up Smart Home Theme for Hugo
 
-Theme for OneUpSmartHome.com
+Hugo theme for OneUpSmartHome.com designed by Kenold Beauplan / [@kenoldb](https://twitter.com/kenoldb)
