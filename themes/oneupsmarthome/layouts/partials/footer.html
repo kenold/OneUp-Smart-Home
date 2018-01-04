@@ -5,7 +5,7 @@
               <ul class="list-inline">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
-                    <li><a href="{{ .URL }}" {{if  $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>{{ .Name }}</a></li>                          
+                    <li><a href="{{ .URL }}" {{if  $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><span class="h6 type--uppercase">{{ .Name }}</span></a></li>                          
                 {{ end }}
               </ul>
           </div>
