@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "One Up Smart Home"
 theme = "oneupsmarthome"
+description = "Smart home and home automation services in Fort Lauderdale, Miami, West Palm Beach and Jacksonville. We install Amazon echo devices, Google Home devices, smart WiFi light, smart bulbs and security cameras"
 
 [[menu.main]]
     name = "Home"
