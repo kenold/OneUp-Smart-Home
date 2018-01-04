@@ -3,11 +3,10 @@
       <div class="row">
           <div class="col-sm-7">
               <ul class="list-inline">
-                  <li> <a href="#"><span class="h6 type--uppercase">Home</span></a> </li>
-                  <li> <a href="#"><span class="h6 type--uppercase">Services</span></a> </li>
-                  <li> <a href="#"><span class="h6 type--uppercase">Book Appointment</span></a> </li>
-                  <li> <a href="#"><span class="h6 type--uppercase">About Us</span></a> </li>
-                  <li> <a href="#"><span class="h6 type--uppercase">Contact</span></a> </li>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}" {{if  $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>{{ .Name }}</a></li>                          
+                {{ end }}
               </ul>
           </div>
           <div class="col-sm-5 text-right text-center-xs">
