@@ -1,4 +1,21 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "One Up Smart Home"
 theme = "oneupsmarthome"
+
+[[menu.main]]
+    name = "Home"
+    weight = -100
+    url = "/"
+[[menu.main]]
+    name = "Services"
+    weight = -100
+    url = "/services/"
+[[menu.main]]
+    name = "About Us"
+    weight = -100
+    url = "/about/"
+[[menu.main]]
+    name = "Contact"
+    weight = -100
+    url = "/contact/"    
