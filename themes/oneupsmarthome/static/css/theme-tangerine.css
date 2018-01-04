@@ -207,6 +207,14 @@ a:active {
 .type--fine-print {
   font-size: 0.85714286em;
 }
+.disclaimer {
+  margin-top: 3.71428571em;
+  margin-bottom: 3.71428571em;
+}
+.type--disclaimer {
+  font-size: inherit;
+  color: #BBB;
+}
 .type--strikethrough {
   text-decoration: line-through;
   opacity: .5;
