@@ -215,6 +215,9 @@ a:active {
   font-size: inherit;
   color: #BBB;
 }
+.type--disclaimer a {
+  text-decoration: none;
+}
 .type--strikethrough {
   text-decoration: line-through;
   opacity: .5;
