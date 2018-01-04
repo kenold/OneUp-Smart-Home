@@ -19,4 +19,8 @@ description = "Smart home and home automation services in Fort Lauderdale, Miami
 [[menu.main]]
     name = "Contact"
     weight = 400
-    url = "/contact/"    
+    url = "/contact/" 
+[[menu.main]]
+    name = "Consultation"
+    weight = 500
+    url = "/consultation"         
