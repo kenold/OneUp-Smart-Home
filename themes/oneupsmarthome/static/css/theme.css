@@ -3458,8 +3458,10 @@ section.text-right > .container:last-child > .row:only-child > div[class*='col-'
   float: right;
 }
 /**! 37. Spacing **/
-section,
 footer {
+  padding-top: 7.42857143em;
+}
+section {
   padding-top: 7.42857143em;
   padding-bottom: 7.42857143em;
 }
