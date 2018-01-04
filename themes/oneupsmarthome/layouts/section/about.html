@@ -1,0 +1,77 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+<div class="main-container">
+    <a id="header" class="in-page-link"></a>
+    <section class="cover imagebg height-40" data-overlay="7">
+        <div class="background-image-holder"> <img alt="background" src="img/smart-home-header.jpg"> </div>
+        <div class="container pos-vertical-center">
+            <div class="row">
+                <div class="col-sm-8 col-md-7">
+                    <h1> Control your house from anywhere! </h1>
+                    <p class="lead"> Control lights, appliances or a room in the comfort of your home or from anywhere in the world. </p>
+                    <a class="btn btn--primary type--uppercase" href="#consultation"> <span class="btn__text">
+                get A FREE CONSULTATION
+            </span> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center space--xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-8">
+                    <h2>About One Up Smart Home</h2>
+                    <p class="lead"> Stack's visual style is simple yet distinct, making it an ideal starting point for your project whether it be a basic marketing site, or multi-page company presence. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a id="consultation" class="in-page-link"></a>
+    <section class="switchable bg--secondary space--xxs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-7">
+                    <div class="mt--2">
+                        <h1> Free In-Home Consultation. </h1>
+                        <p class="lead"> Get started with a free In-Home consultation. Our smart home experts have the expertise to handle a wide range of home control products. </p>
+                        <a class="btn btn--primary type--uppercase" href="#customise-template"> <span class="btn__text">
+                    get a free consultation</span> </a>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-5 col-xs-12"> <img alt="Image" src="img/smart-home-consultation.jpg"> </div>
+            </div>
+        </div>
+    </section>
+    <a id="testimonials" class="in-page-link"></a>
+    <section class="text-center space--xxs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-10">
+                    <div class="slider" data-paging="true">
+                        <ul class="slides">
+                            <li>
+                                <div class="testimonial">
+                                    <blockquote> “There's a feeling of structure that you can't find in other templates — Stack has become my default template.” </blockquote>
+                                    <h5>Jason Briggs</h5> <span>Envato Customer</span> </div>
+                            </li>
+                            <li>
+                                <div class="testimonial">
+                                    <blockquote> “Variant has been a massive plus for my workflow — I can now get live mockups out in a matter of hours, my clients really love it.” </blockquote>
+                                    <h5>Rob Vasquez</h5> <span>Interface Designer — Yoke</span> </div>
+                            </li>
+                            <li>
+                                <div class="testimonial">
+                                    <blockquote> “We’ve been using Stack to prototype designs quickly and efficiently. Needless to say we’re hugely impressed by the style and value.” </blockquote>
+                                    <h5>Maguerite Holland</h5> <span>Interface Designer — Yoke</span> </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{ end }}
+
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

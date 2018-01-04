@@ -1,0 +1,46 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+<div class="main-container">
+    <a id="header" class="in-page-link"></a>
+    <section class="cover imagebg height-40" data-overlay="7">
+        <div class="background-image-holder"> <img alt="background" src="img/smart-home-header.jpg"> </div>
+        <div class="container pos-vertical-center">
+            <div class="row">
+                <div class="col-sm-8 col-md-7">
+                    <h1> Control your house from anywhere! </h1>
+                    <p class="lead"> Control lights, appliances or a room in the comfort of your home or from anywhere in the world. </p>
+                    <a class="btn btn--primary type--uppercase" href="#consultation"> <span class="btn__text">
+                get A FREE CONSULTATION
+            </span> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="switchable">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5"> <img alt="Image" class="border--round box-shadow-wide" src="img/inner-2.jpg"> </div>
+                <div class="col-sm-6">
+                    <div class="row switchable__text">
+                        <p class="lead"> E: <a href="#">info@oneupsmarthome.com</a><br> P: 954-709-3853 (Fort Lauderdale, Miami)<br>P: 415-341-3333 (Jacksonville)<br></p>
+                        <p class="lead"> Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. </p>
+                        <p class="lead"> We are open from 9am — 5pm week days. </p>
+                        <hr class="short">
+                        <div class="row">
+                            <form class="form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
+                                <div class="col-sm-6"> <label>Your Name:</label> <input type="text" name="Name" class="validate-required"> </div>
+                                <div class="col-sm-6"> <label>Email Address:</label> <input type="email" name="email" class="validate-required validate-email"> </div>
+                                <div class="col-sm-12"> <label>Message:</label> <textarea rows="4" name="Message" class="validate-required"></textarea> </div>
+                                <div class="col-sm-5 col-md-4"> <button type="submit" class="btn btn--primary type--uppercase">Send Enquiry</button> </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{ end }}
+
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
