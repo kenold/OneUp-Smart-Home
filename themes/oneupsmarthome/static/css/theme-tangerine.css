@@ -3195,7 +3195,7 @@ form[action*='list-manage.com'] .small-meta {
 }
 /**! 34. Bars **/
 .bar {
-  padding: 1.85714286em 0;
+  padding: 1.35714286em 0;
 }
 .bar .logo {
   margin: 0;
@@ -4757,7 +4757,7 @@ section.parallax .row .background-image-holder {
   font-family: 'Open Sans', 'Roboto', 'Helvetica', Sans-Serif;
 }
 .bar .logo {
-  max-height: 1.85714286em;
+  max-height: 3.85714286em;
   max-width: none;
 }
 .menu-horizontal > li > a,
