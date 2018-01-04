@@ -3692,22 +3692,7 @@ section.unpad--top {
 .alert.alert--dismissed {
   display: none;
 }
-/**! 41. Progress - Horizontal **/
-.progress-horizontal:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.progress-horizontal .progress-horizontal__bar {
-  position: relative;
-  overflow: hidden;
-}
-.progress-horizontal .progress-horizontal__progress {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-}
+
 /**! 42. Theme Overrides **/
 /*! -- Stack Customizers -- */
 .box-shadow {
