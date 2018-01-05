@@ -1,1 +1,6 @@
-/*! Place your custom styles here */
+/*! commands list */
+
+ul.commands {
+    font-size: 1.35714286em;
+    font-weight: 700;
+}
