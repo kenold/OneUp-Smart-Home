@@ -962,8 +962,8 @@ div[data-overlay] ul {
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #6AC56B;
-  border-color: #6AC56B;
+  background: #4c9b4d;
+  border-color: #4c9b4d;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -974,7 +974,8 @@ div[data-overlay] ul {
   color: #fff;
 }
 .btn--primary:hover {
-  background: #4c9b4d;
+  background: #6AC56B;
+  border-color: #6AC56B;
 }
 .btn--primary:active {
   background: #d88001;
@@ -1112,7 +1113,7 @@ ul:last-child {
 .menu-horizontal > li:not(:hover) > a,
 .menu-horizontal > li:not(:hover) > span,
 .menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
-  opacity: .5;
+  opacity: .7;
 }
 .menu-horizontal > li > a,
 .menu-horizontal > li > span,
