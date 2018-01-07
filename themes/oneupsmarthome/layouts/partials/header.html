@@ -24,7 +24,7 @@
                       <div class="bar__module">
                           <ul class="menu-horizontal text-left">
                             {{ $currentPage := . }}
-                            {{ range first 4 .Site.Menus.main }}
+                            {{ range .Site.Menus.main }}
                                 <li><a href="{{ .URL }}" {{if  $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>{{ .Name }}</a></li>                          
                             {{ end }}
                           </ul>
