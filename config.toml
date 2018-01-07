@@ -30,4 +30,4 @@ description = "Smart home and home automation services in Fort Lauderdale, Miami
 [[menu.main]]
     name = "Book an Appointment"
     weight = 500
-    url = "/consultation"         
+    url = "/appointment"         
