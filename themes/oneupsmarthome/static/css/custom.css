@@ -1,8 +1,10 @@
+.bg--dark .menu-horizontal > li > a.active {
+    color: #6AC56B;
+}
 /*! commands list */
 ul.commands {
     font-size: 1.75714286em;
 }
-
 .phone-header {
     color: #fff;
     font-size: 1.54285714em;
