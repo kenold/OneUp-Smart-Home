@@ -9,3 +9,6 @@ ul.commands {
     color: #fff;
     font-size: 1.54285714em;
 }
+p a, span a {
+    text-decoration: none!important;
+}
