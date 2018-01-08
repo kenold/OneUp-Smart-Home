@@ -1,0 +1,34 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+<div class="main-container">
+    <a id="header" class="in-page-link"></a>
+    <section class="cover imagebg height-30" data-overlay="7">
+        <div class="background-image-holder"> <img alt="background" src="/img/smart-home-header.jpg"> </div>
+        <div class="container pos-vertical-center">
+            <div class="row">
+                <div class="col-sm-8 col-md-7">
+                    <h1> Contact us </h1>
+                    <p class="lead"> Questions about our smart home technology services? <br>Call us 954-709-3853. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="switchable">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5"> <img alt="Image" class="border--round box-shadow-wide" src="/img/smart-home-contact.jpg"> </div>
+                <div class="col-sm-6">
+                    <div class="row switchable__text">
+                       <h1>Thank You!</h1>
+                        <p class="lead"> Your form submission has been received.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{ end }}
+
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
