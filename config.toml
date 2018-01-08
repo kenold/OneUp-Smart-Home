@@ -31,4 +31,4 @@ googleAnalytics = "UA-112061862-1"
 [[menu.main]]
     name = "Book an Appointment"
     weight = 500
-    url = "/appointment"              
+    url = "/appointment/"              
